@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="rpssource.js" defer></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="header"> <h1> Rock Paper Scissors!</h1> </div>
+
+    <div class="round-info">
+        <button class="reset-button"> Reset score </button>
+        <span class ="round-result"> Make your choice to start a round! </span>  
+    </div>
+
+    <div class ="round-display"> 
+
+        <div class="score" id="score-player"> 0 </div>
+
+        <div class="choice-display" id="player-display">
+            <img src="graphics/fist-left.png" class="icon-hand-grab icon"> 
+        </div> 
+
+        <div class="choice-display" id="computer-display">
+            <img src="graphics/fist-right.png" class="icon-hand-grab icon"> 
+        </div> 
+
+        <div class="score" id="score-computer"> 0 </div>
+
+    </div>
+
+    <div class="choice-container">
+
+        <div data-number="0" class="choice" role="button">
+            <img src="graphics/fist-small.png" class="icon-hand-grab icon"> 
+        </div>
+
+        <div data-number="1" class="choice" role="button">
+            <img src="graphics/paper-small.png" class="icon-hand-paper icon"> 
+        </div>
+
+        <div data-number="2" class="choice" role="button">
+            <img src="graphics/scissors-small.png" class="icon-hand-scissors icon">
+        </div>
+
+    </div>
+
+    <div class="footer"> 
+        <div class="credits">
+            <a href="https://www.flaticon.com/packs/hand-gesture-and-finger-action-1" title="fist icons" target="_blank">
+        </div>
+    </div>
+
+</body>
+</html>
